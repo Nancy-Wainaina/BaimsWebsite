@@ -1,0 +1,599 @@
+.landingpage{
+    background-color: rgb(250, 207, 204);
+    border-radius: 20px;
+}
+.navbar{
+    display: flex;
+    gap:6%;
+    margin-left: 5%;
+}
+.wordBaims{
+    margin-top: 2%;
+    font-size: 30px;
+}
+.body{
+    display: flex;
+    gap: 20%;
+    padding: 5%;
+}
+.footer{
+    background-color: aliceblue;
+    border-radius: 0 0 20px 20px;
+}
+.Footer{
+    list-style: none;
+    display: flex;
+    gap:20%;
+    padding-left: 7%;
+    height: 200px;
+}
+.studyAnytime{
+    font-size: 3.5rem;
+}
+.learn{
+    padding: 15px;
+    border-radius: 20px;
+}
+.image{
+    height: 400px;
+    width: 600px;
+    border-radius:110px ;
+}
+.signIn{
+    margin-top: 2%;
+    text-decoration: none;
+    color:black;
+}
+.signupButton{
+    width: 120px;
+    background-color: rgb(39, 35, 51);
+    border-radius: 25px;
+    margin-top: 1.5%;
+    color: aliceblue;
+}
+.searchBar{
+    border-radius: 30px;
+    width: 260px;
+    margin-top: 2%;
+}
+.Director{
+    color: black;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+.courses{
+    margin-top: 2.5%;
+}
+@media screen and (min-width:280px) and (max-width:375px){
+
+    .landingpage{
+        background-color: rgb(250, 207, 204);
+        border-radius: 20px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .wordBaims{
+        margin-top: 2%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        background-color: aliceblue;
+        border-radius: 0 0 20px 20px;
+    }
+    .Footer{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding-left: 7%;
+        height: 200px;
+    }
+    .studyAnytime{
+        font-size: 2.0rem;
+        text-align: center;
+    }
+    .learn{
+        padding: 15px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .image{
+        height: 250px;
+        width: 250px;
+        border-radius:50px ;
+        margin-top: 20px;
+    }
+    .signIn{
+        margin-top: 2%;
+        text-decoration: none;
+        color:black;
+        text-align: center;
+    }
+    .signupButton{
+        width: 120px;
+        background-color: rgb(39, 35, 51);
+        border-radius: 25px;
+        margin-top: 1.5%;
+        color: aliceblue;
+        margin-left: 55px;
+    }
+    .searchBar{
+        border-radius: 30px;
+        width: 200px;
+        margin-top: 2%;
+    }
+    .Director{
+        color: black;
+        text-decoration: none;
+        margin-top: 2%;
+    }
+    .courses{
+        margin-top: 2.5%;
+        text-align: center;
+    }
+
+
+   
+}
+@media screen and (min-width:376px) and (max-width:414px){
+    .landingpage{
+        background-color: rgb(250, 207, 204);
+        border-radius: 20px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .wordBaims{
+        margin-top: 2%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        background-color: aliceblue;
+        border-radius: 0 0 20px 20px;
+    }
+    .Footer{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding-left: 7%;
+        height: 200px;
+    }
+    .studyAnytime{
+        font-size: 2.0rem;
+        text-align: center;
+    }
+    .learn{
+        padding: 15px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .image{
+        height: 250px;
+        width: 250px;
+        border-radius:50px ;
+        margin-top: 20px;
+    }
+    .signIn{
+        margin-top: 2%;
+        text-decoration: none;
+        color:black;
+        text-align: center;
+    }
+    .signupButton{
+        width: 120px;
+        background-color: rgb(39, 35, 51);
+        border-radius: 25px;
+        margin-top: 1.5%;
+        color: aliceblue;
+        margin-left: 55px;
+    }
+    .searchBar{
+        border-radius: 30px;
+        width: 200px;
+        margin-top: 2%;
+    }
+    .Director{
+        color: black;
+        text-decoration: none;
+        margin-top: 2%;
+    }
+    .courses{
+        margin-top: 2.5%;
+        text-align: center;
+    }
+
+
+}
+@media screen and (min-width:415px) and (max-width:540px){
+    .landingpage{
+        background-color: rgb(250, 207, 204);
+        border-radius: 20px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .wordBaims{
+        margin-top: 2%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        background-color: aliceblue;
+        border-radius: 0 0 20px 20px;
+    }
+    .Footer{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding-left: 7%;
+        height: 200px;
+    }
+    .studyAnytime{
+        font-size: 2.0rem;
+        text-align: center;
+    }
+    .learn{
+        padding: 15px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .image{
+        height: 250px;
+        width: 250px;
+        border-radius:50px ;
+        margin-top: 20px;
+    }
+    .signIn{
+        margin-top: 2%;
+        text-decoration: none;
+        color:black;
+        text-align: center;
+    }
+    .signupButton{
+        width: 120px;
+        background-color: rgb(39, 35, 51);
+        border-radius: 25px;
+        margin-top: 1.5%;
+        color: aliceblue;
+        margin-left: 55px;
+    }
+    .searchBar{
+        border-radius: 30px;
+        width: 200px;
+        margin-top: 2%;
+    }
+    .Director{
+        color: black;
+        text-decoration: none;
+        margin-top: 2%;
+    }
+    .courses{
+        margin-top: 2.5%;
+        text-align: center;
+    }
+
+}
+@media screen and (min-width:541px) and (max-width:768px){
+    .landingpage{
+        background-color: rgb(250, 207, 204);
+        border-radius: 20px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .wordBaims{
+        margin-top: 2%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        background-color: aliceblue;
+        border-radius: 0 0 20px 20px;
+    }
+    .Footer{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding-left: 7%;
+        height: 200px;
+    }
+    .studyAnytime{
+        font-size: 2.0rem;
+        text-align: center;
+    }
+    .learn{
+        padding: 15px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .image{
+        height: 250px;
+        width: 250px;
+        border-radius:50px ;
+        margin-top: 20px;
+    }
+    .signIn{
+        margin-top: 2%;
+        text-decoration: none;
+        color:black;
+        text-align: center;
+    }
+    .signupButton{
+        width: 120px;
+        background-color: rgb(39, 35, 51);
+        border-radius: 25px;
+        margin-top: 1.5%;
+        color: aliceblue;
+        margin-left: 55px;
+    }
+    .searchBar{
+        border-radius: 30px;
+        width: 200px;
+        margin-top: 2%;
+    }
+    .Director{
+        color: black;
+        text-decoration: none;
+        margin-top: 2%;
+    }
+    .courses{
+        margin-top: 2.5%;
+        text-align: center;
+    }
+
+   
+}
+@media screen and (min-width:769px) and (max-width:820px){
+    .landingpage{
+        background-color: rgb(250, 207, 204);
+        border-radius: 20px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .wordBaims{
+        margin-top: 2%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        background-color: aliceblue;
+        border-radius: 0 0 20px 20px;
+    }
+    .Footer{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding-left: 7%;
+        height: 200px;
+    }
+    .studyAnytime{
+        font-size: 2.0rem;
+        text-align: center;
+    }
+    .learn{
+        padding: 15px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .image{
+        height: 250px;
+        width: 250px;
+        border-radius:50px ;
+        margin-top: 20px;
+    }
+    .signIn{
+        margin-top: 2%;
+        text-decoration: none;
+        color:black;
+        text-align: center;
+    }
+    .signupButton{
+        width: 120px;
+        background-color: rgb(39, 35, 51);
+        border-radius: 25px;
+        margin-top: 1.5%;
+        color: aliceblue;
+        margin-left: 55px;
+    }
+    .searchBar{
+        border-radius: 30px;
+        width: 200px;
+        margin-top: 2%;
+    }
+    .Director{
+        color: black;
+        text-decoration: none;
+        margin-top: 2%;
+    }
+    .courses{
+        margin-top: 2.5%;
+        text-align: center;
+    }
+
+   
+}
+@media screen and (min-width:821px) and (max-width:912px){
+    .landingpage{
+        background-color: rgb(250, 207, 204);
+        border-radius: 20px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .wordBaims{
+        margin-top: 2%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        background-color: aliceblue;
+        border-radius: 0 0 20px 20px;
+    }
+    #singleSentence{
+        margin-left: 200px;
+    }
+    .Footer{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding-left: 7%;
+        height: 200px;
+        text-align: center;
+    }
+    .studyAnytime{
+        font-size: 2.0rem;
+        text-align: center;
+    }
+    .learn{
+        padding: 15px;
+        border-radius: 20px;
+        margin-left: 300px;
+    }
+    .image{
+        height: 250px;
+        width: 250px;
+        border-radius:50px ;
+        margin-top: 20px;
+        margin-left: 270px;
+    }
+    .signIn{
+        margin-top: 2%;
+        text-decoration: none;
+        color:black;
+        text-align: center;
+    }
+    .signupButton{
+        width: 120px;
+        background-color: rgb(39, 35, 51);
+        border-radius: 25px;
+        margin-top: 1.5%;
+        color: aliceblue;
+        margin-left: 355px;
+    }
+    .searchBar{
+        border-radius: 30px;
+        width: 200px;
+        margin-top: 2%;
+        margin-left: 300px;
+        padding: 10px;
+    }
+    .Director{
+        color: black;
+        text-decoration: none;
+        margin-top: 2%;
+        margin-left: 350px;
+    }
+    .courses{
+        margin-top: 2.5%;
+        text-align: center;
+    }
+
+}
+@media screen and (min-width:913px) and (max-width:1280px){
+    .landingpage{
+        background-color: rgb(250, 207, 204);
+        border-radius: 20px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .wordBaims{
+        margin-top: 2%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        background-color: aliceblue;
+        border-radius: 0 0 20px 20px;
+    }
+    .Footer{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding-left: 7%;
+        height: 200px;
+    }
+    .studyAnytime{
+        font-size: 2.0rem;
+        text-align: center;
+    }
+    .learn{
+        padding: 15px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .image{
+        height: 250px;
+        width: 250px;
+        border-radius:50px ;
+        margin-top: 20px;
+    }
+    .signIn{
+        margin-top: 2%;
+        text-decoration: none;
+        color:black;
+        text-align: center;
+    }
+    .signupButton{
+        width: 120px;
+        background-color: rgb(39, 35, 51);
+        border-radius: 25px;
+        margin-top: 1.5%;
+        color: aliceblue;
+        margin-left: 55px;
+    }
+    .searchBar{
+        border-radius: 30px;
+        width: 200px;
+        margin-top: 2%;
+    }
+    .Director{
+        color: black;
+        text-decoration: none;
+        margin-top: 2%;
+    }
+    .courses{
+        margin-top: 2.5%;
+        text-align: center;
+    }
+
+}
